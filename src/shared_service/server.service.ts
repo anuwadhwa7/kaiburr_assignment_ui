@@ -14,7 +14,7 @@ import { catchError } from 'rxjs/operators';
 @Injectable()
 export class ServerService {
 
-  private baseUrl:string='http://kaiburr-backend:8080/server';
+  private baseUrl:string='http://localhost:8080/server';
   private headers = new Headers ({'Content-Type' : 'application/json'});
   private options = new RequestOptions({headers:this.headers});
   private server:Server;
