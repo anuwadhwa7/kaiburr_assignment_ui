@@ -1,3 +1,5 @@
+Task 4. WEB UI Forms
+
 # KaiburrAppUI
 
 ![kaiburr-ui](https://user-images.githubusercontent.com/24635328/78181610-52af1d80-7482-11ea-9017-1cfe123c1d94.gif)
@@ -15,6 +17,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Deployment of Web Application
+
+Change the baseUrl: 'http://localhost:4200/' to any deployment server name from 'e2e -> protractor.conf.js' file.
 
 ## Running unit tests
 
