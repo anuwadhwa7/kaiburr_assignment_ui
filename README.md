@@ -1,6 +1,6 @@
 # KaiburrAppUI
 
-<div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:62.5%;position:relative;"><iframe width="360" height="225" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/3uzdi4"></iframe></div><p><a href="https://imgflip.com/gif/3uzdi4">via Imgflip</a></p></div>
+<a href="https://imgflip.com/gif/3uze0g">via Imgflip</a></p></div>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
