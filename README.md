@@ -1,6 +1,6 @@
 # KaiburrAppUI
 
-<a href="https://imgflip.com/gif/3uze0g">via Imgflip</a></p></div>
+<a href="https://imgflip.com/gif/3uze0g"><img src="https://imgflip.com/gif/3uze0g.gif"/></a>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
