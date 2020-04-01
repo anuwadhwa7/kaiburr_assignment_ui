@@ -1,4 +1,6 @@
-# MyDreamApp
+# KaiburrAppUI
+
+![](src/video_demo/kaiburr-ui.mp4)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
