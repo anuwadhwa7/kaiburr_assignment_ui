@@ -1,0 +1,47 @@
+<header class="masthead bg-primary text-white text-center">
+  <link rel="stylesheet" type="text/css" href="listserver.component.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+  <style>
+  .w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+  }
+  </style>
+  <div class="w3-container w3-black w3-center w3-allerta"><br>
+    <h1 class="w3-xxxlarge">Kaiburr App</h1>
+    <hr class="star-light">
+  </div>
+</header>
+
+<div class="container" style="overflow-x:auto;">
+  <table class="table table-striped">
+    <thead>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Language</th>
+    <th>Framework </th>
+    </thead>
+    <tbody>
+
+    <tr *ngFor="let server of servers">
+      <td>{{server.id}}</td>
+      <td>{{server.name}}</td>
+      <td>{{server.language}}</td>
+      <td>{{server.framework}}</td>
+      <td>
+        <button class="btn btn-danger" (click)="deleteItem(server)"><style>button{width:100px}</style>Delete</button>
+        <button class="btn btn-primary" (click)="saveOrUpdateItem(server)"><style>button{width:100px}</style>Edit</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <br><br>
+  <hr>
+  <button class="btn btn-primary" (click)="newItem()"><style>button{width:100%}</style>New Server</button>
+</div>
+
+<hr>
+<footer class="container-fluid bg-4 text-center">
+  <p> Copyright Ⓒ Anurag Wadhwa:All Rights Reserved</p>
+</footer>
