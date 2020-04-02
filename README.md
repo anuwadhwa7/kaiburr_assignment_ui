@@ -22,7 +22,14 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Deployment of Web Application
 
-Change the `baseUrl: http://localhost:4200/` to any deployment server name from `e2e -> protractor.conf.js` file.
+1. To run on localhost :
+
+`baseUrl: http://localhost:4200/` in `e2e -> protractor.conf.js` file.
+
+2. For Docker Compose :
+
+`baseUrl: http://kaiburr-backend:4200/` in `e2e -> protractor.conf.js` file.
+
 
 ## Running unit tests
 
