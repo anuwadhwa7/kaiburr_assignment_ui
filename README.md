@@ -2,7 +2,6 @@ Task 4. WEB UI Forms
 
 # KaiburrAppUI
 
-Task 4 Video Demo :
 ![kaiburr-ui](https://user-images.githubusercontent.com/24635328/78181610-52af1d80-7482-11ea-9017-1cfe123c1d94.gif)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
