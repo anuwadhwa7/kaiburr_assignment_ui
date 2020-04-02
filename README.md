@@ -6,7 +6,7 @@ Task 4. WEB UI Forms
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
-Go to 'src -> video_demo -> kaiburr-ui.mp4' to check out the Demo Video of the project.
+Go to `src -> video_demo -> kaiburr-ui.mp4` to check out the Demo Video of the project.
 
 ## Development server
 
